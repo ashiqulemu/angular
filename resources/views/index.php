@@ -52,7 +52,12 @@
                 </div>
                 <div class="form-group">
                     <label for="exampleInputEmail1">Position</label>
-                    <input type="text" class="form-control" placeholder="Add Position" ng-model="position">
+<!--                    <input type="text" class="form-control" placeholder="Add Position">-->
+	                <select name="" id="" class="form-control" ng-model="position">
+		                <option value="">select position </option>
+		                <option value="">option one </option>
+		                <option value="">option two </option>
+	                </select>
                 </div>
                 <div class="form-group">
                     <label for="exampleInputEmail1">Keyword</label>
